@@ -21,23 +21,27 @@ let arr = [
         "name": "Serhii",
         "age": 19,
         "title": "description"
-    },{
+    }, {
         "name": "Serhii",
         "age": 19,
         "title": "description"
-    },{
+    }, {
         "name": "Serhii",
         "age": 19,
         "title": "description"
-    },{
+    }, {
         "name": "Serhii",
         "age": 19,
         "title": "description"
-    },{
+    }, {
         "name": "Serhii",
         "age": 19,
         "title": "description"
-    },
+    }, {
+        "name": "Sviatoslav",
+        "age": 19,
+        "title": "student"
+    }
 ];
 
 class UserPanels {
@@ -50,7 +54,7 @@ class UserPanels {
     }
     initializeStateArray() {
         this.#stateArray = new Array(this.#userArray.length);
-        for(let i = 0; i < this.#stateArray.length; i++) {
+        for (let i = 0; i < this.#stateArray.length; i++) {
             this.#stateArray[i] = false;
         }
     }
