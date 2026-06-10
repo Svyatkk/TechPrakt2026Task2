@@ -200,3 +200,27 @@ body {
     color: var(--text-muted);
     font-size: 0.9rem;
 }
+
+@media (max-width: 768px) {
+    .main-header .container {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .nav-menu ul {
+        gap: 15px;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+    }
+
+    .news-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .news-image {
+        height: 200px;
+    }
+}
